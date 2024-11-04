@@ -34,8 +34,8 @@ importers:
         specifier: ^2.27.7
         version: 2.27.7
       '@types/diff':
-        specifier: ^5.2.1
-        version: 5.2.2
+        specifier: ^6.0.0
+        version: 6.0.0
       '@types/js-yaml':
         specifier: ^4.0.9
         version: 4.0.9
@@ -442,8 +442,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@types/diff@5.2.2':
-    resolution: {integrity: sha512-qVqLpd49rmJA2nZzLVsmfS/aiiBpfVE95dHhPVwG0NmSBAt+riPxnj53wq2oBq5m4Q2RF1IWFEUpnZTgrQZfEQ==}
+  '@types/diff@6.0.0':
+    resolution: {integrity: sha512-dhVCYGv3ZSbzmQaBSagrv1WJ6rXCdkyTcDyoNu1MD8JohI7pR7k8wdZEm+mvdxRKXyHVwckFzWU1vJc+Z29MlA==}
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
@@ -1652,7 +1652,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.24.0':
     optional: true
 
-  '@types/diff@5.2.2': {}
+  '@types/diff@6.0.0': {}
 
   '@types/estree@1.0.6': {}
 
