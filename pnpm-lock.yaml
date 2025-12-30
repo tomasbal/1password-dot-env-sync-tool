@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@1password/sdk':
         specifier: ^0.1.1
-        version: 0.1.1
+        version: 0.1.6
       '@inquirer/prompts':
         specifier: ^7.0.0
         version: 7.0.0(@types/node@22.10.5)
@@ -51,11 +51,11 @@ importers:
 
 packages:
 
-  '@1password/sdk-core@0.1.0-beta.15':
-    resolution: {integrity: sha512-ZmQVTB4szM7TkXEtlMr0xIg87q6qhRqnbI0AThSwSknwDOm0z08NEb1GIeD4Z/Z02+YqVXa7A1cBXFLoHSt1IQ==}
+  '@1password/sdk-core@0.1.6':
+    resolution: {integrity: sha512-2I8O9YSp5KJHKMX9EkqrD83EukolklyF0Ms7Nr5BgfAsQq/AlVIeIxjK6LlrNoXyI8uWTuAexPIHiv/N13bJDA==}
 
-  '@1password/sdk@0.1.1':
-    resolution: {integrity: sha512-Hzf7jiobM1v8v5ZItGEuLYKjoDxNJKoNfN572scBi6unUGC4hrGToN814IxVVgplrZetsRHX5rKyRzG/YGHoJA==}
+  '@1password/sdk@0.1.6':
+    resolution: {integrity: sha512-cZK+TZqtpkjtupbix0n8BvUR8/F+GqmD7RDy0wZ8EhpQ5mQklpG861eBBmR6UTvYRpfOgKgS8KAMvx165Zoyvg==}
 
   '@babel/runtime@7.25.0':
     resolution: {integrity: sha512-7dRy4DwXwtzBrPbZflqxnvfxLF8kdZXPkhymtDeFoFqE6ldzjQFgYTtYIFARcLEYDrqfBfYcZt1WqFxRoyC9Rw==}
@@ -1160,11 +1160,11 @@ packages:
 
 snapshots:
 
-  '@1password/sdk-core@0.1.0-beta.15': {}
+  '@1password/sdk-core@0.1.6': {}
 
-  '@1password/sdk@0.1.1':
+  '@1password/sdk@0.1.6':
     dependencies:
-      '@1password/sdk-core': 0.1.0-beta.15
+      '@1password/sdk-core': 0.1.6
 
   '@babel/runtime@7.25.0':
     dependencies:
